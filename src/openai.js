@@ -1,6 +1,6 @@
 import {OpenAI} from 'openai';
 
-const openai = new OpenAI({apiKey:"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", dangerouslyAllowBrowser: true })
+const openai = new OpenAI({apiKey:"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", dangerouslyAllowBrowser: true })
 
 export async function sendMsg(message){
     const res = await openai.completions.create({
